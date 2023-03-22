@@ -1,2 +1,2 @@
 # Industy-big-Data
-课设作业，试试上传github玩玩
+基于python的就业岗位可视化，可进行简单搜索

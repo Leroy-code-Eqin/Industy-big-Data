@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>开始搜索</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="../static/css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="../static/images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="../static/css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="../static/css/font-awesome.css">
+      <!-- owl stylesheets -->
+      <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,600,700|Poppins:400,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+      <link rel="stylesoeet" href="../static/css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="../static/css/jquery.fancybox.min.css" media="screen">
+   </head>
+   <body>
+
+      <div class="banner_section layout_padding">
+         <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="banner_taital">
+                        <h1 class="banner_taital">Let’s start seek</h1>
+                        <p class="banner_text"> </p>
+                     </div>
+                     <div class="play_now_bt"><a href="#">Job information search visualization</a></div>
+                     <h1 class="Music_text">work</h1>
+                     <form action="{%url 'Data:respond'%}" method="POST" class="example" >
+                        {%  csrf_token %}
+                       <input type="text" placeholder="Please enter the search content...." name='搜索内容'>
+                       <button type="submit"><i class="fa fa-search"></i></button>
+                     </form>
+                  </div>
+                  <div class="container-fluid">
+                     <h4 class="number_text active">01<span style="text-align: right; float: right;">03</span></h4>
+                  </div>
+               </div>
+       </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+              <i class="fa fa-angle-right"></i>
+            </a>
+         </div>
+      </div>
+      <!-- banner section end -->
+      <!-- news section start -->
+      <div class="news_section layout_padding">
+         <div class="container">
+            <div class="news_taital_main">
+               <h1 class="latest_text">高薪水</h1>
+               <div class="seemor_bt"><a href="#">更多</a></div>
+            </div>
+         </div>
+      </div>
+      <div class="news_section_2">
+         <div class="container">
+            <div class="down_arrow"><img src="../static/images/down-arrow.png"></div>
+            <div class="row">
+               <div class="col-lg-3 col-sm-6">
+                  <div class="images_main">
+                     <div class="image_1"><img src="../static/images/img-1.png" class="image_1"></div>
+                     <div class="text_main">
+                        <h2 class="business_text">高薪工作有哪些？</h2>
+                        <p class="date_text">03/01/2023</p>
+                     </div>
+                     <p class="ipsum_text">高薪的工作中这几个职业占一大半（如果奶茶店、煎饼摊这些老板不算为职业，员工算为职业）：医生、律师、金融行业、IT行业、工程师、市场营销、运营、销售、艺术设计。 虽然说行行能出状元，但是如果一个行业只有最靠前的1%收入特别高</p>
+                     <div class="seemor_bt_1"><a href="#">查找更多</a></div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="images_main">
+                     <div class="image_1"><img src="../static/images/img-2.png" class="image_1"></div>
+                     <div class="text_main">
+                        <h2 class="business_text">2022就业市场会有多糟糕？</h2>
+                        <p class="date_text">03/01/2023</p>
+                     </div>
+                     <p class="ipsum_text">今年各大互联网公司都在降本增效，不少往年的互联网大厂都在寻找新的经济增长点。相比起往年，今年的就业环境其实非常差。2022年其实是一个重要的分割点。大体上看，今年的就业市场供需关系发生了很大变化。也就是说，从候选人的角度看，如果你想拿到一个offer，就必须pk掉大多数比你优秀的人。</p>
+                     <div class="seemor_bt_1"><a href="#">查找更多</a></div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="images_main">
+                     <div class="image_1"><img src="../static/images/img-3.png" class="image_1"></div>
+                     <div class="text_main">
+                        <h2 class="business_text">最高法：坚决反对就业歧视，推动高校毕业生平等就业</h2>
+                        <p class="date_text">03/01/2023</p>
+                     </div>
+                     <p class="ipsum_text">12月27日，最高人民法院发布《关于为稳定就业提供司法服务和保障的意见》（以下简称《意见》）。《意见》指出，依法支持高校毕业生就业，促进多渠道灵活就业。妥善审理平等就业权纠纷案件，依法纠正用人单位因性别歧视、地域歧视等不予招录、拒绝签订劳动合同的行为，破除各种不合理限制，推动高校毕业生平等就业、多渠道灵活就业创业。</p>
+                     <div class="seemor_bt_1"><a href="#">查找更多</a></div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <div class="images_main">
+                     <div class="image_1"><img src="../static/images/img-4.png" class="image_1"></div>
+                     <div class="text_main">
+                        <h2 class="business_text">什么是面试？面试有哪些技巧呢？</h2>
+                        <p class="date_text">03/01/2023</p>
+                     </div>
+                     <p class="ipsum_text">面试是以通过书面、面谈或线上交流的形式来考察一个人的工作能力和应变能力等综合素质的对应聘者的考核。面试给应聘者和公司提供了交流的机会，同时也让公司从应聘者的表现中决定是否应聘。其中，很多学历高、经验足的求职人员并没有在面试过程中凭借自身优势脱颖而出，由此，应用面试技巧作为面试的助推器是很有必要的。</p>
+                     <div class="seemor_bt_1"><a href="#">查找更多</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- news section end -->
+
+      <div class="news_section layout_padding">
+         <div class="container">
+            <div class="news_taital_main">
+               <h1 class="latest_text">高薪工作</h1>
+               <div class="seemor_bt"><a href="#">查找更多</a></div>
+            </div>
+         </div>
+      </div>
+
+      <script src="../static/js/jquery.min.js"></script>
+      <script src="../static/js/popper.min.js"></script>
+      <script src="../static/js/bootstrap.bundle.min.js"></script>
+      <script src="../static/js/jquery-3.0.0.min.js"></script>
+      <script src="../static/js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="../static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="../static/js/custom.js"></script>
+      <!-- javascript -->
+      <script src="../static/js/owl.carousel.js"></script>
+      <script src="../static/js/jquery.fancybox.min.js"></script>
+   </body>
+</html>
